@@ -183,6 +183,7 @@ section{
 .box img{
     height: 350px;
     width: 350px;
+    margin-left: 50px;
 }
 .nav-manual{
     position: absolute;
@@ -447,7 +448,26 @@ footer{
         flex-direction: column;
         margin-right: 20px;
         padding-right: 10rem;
-        
+    }
+    .rubber{
+        height: 70rem;
+        width: 70rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        padding-right: 10rem;
+    }
+    .boom{
+        display: flex;
+        flex-direction: column;
+    }
+    .line{
+        width: 60%;
+        margin-left: 65px;
+    }
+    .mail{
+        margin-left: 10px;
+        display: flex;
         
     }
 }
